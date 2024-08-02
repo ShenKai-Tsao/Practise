@@ -1,0 +1,10 @@
+*.pyc
+*.json
+*.toc
+*.zip
+*.pyz
+*.txt
+*.html
+*.exe
+*.spec
+*.pkg
