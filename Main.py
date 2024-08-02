@@ -7,5 +7,5 @@ print(result)
 
 print("----------------------------------------")
 import gemometry.line as line
-result = line.slope(3,4,1,3)
+result = line.slope(3,4,1,2)
 print(result)
