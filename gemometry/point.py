@@ -3,5 +3,5 @@
 def distance(vX1, vY1, vX2, vY2):
     iValue = abs((vX1 - vX2)) ** 2 
     iValue2 = abs((vY1 - vY2)) ** 2 
-    iResult2 = (iValue + iValue2) ** 0.5
-    return iResult2
+    iResult22 = (iValue + iValue2) ** 0.5
+    return iResult22
