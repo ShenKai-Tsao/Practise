@@ -1,5 +1,5 @@
 
-# 抓取 dcard 網頁原始碼 (HTML)
+# 抓取 ptt 網頁原始碼 (HTML)
 import urllib.request as req
 
 url = "https://www.ptt.cc/bbs/Hiking/index.html"
@@ -10,7 +10,7 @@ request = req.Request(url, headers={
 }) 
 
 with req.urlopen(request) as response:
-    data = response.read().decode("utf-8") # 取得台灣大學網站原始碼(HTML CSS JS)
+    data = response.read().decode("utf-8") # 取得ptt網站原始碼(HTML CSS JS)
 
 # 解析原始碼，取得每篇文章標題
 # 安裝第三方套件： 語法， pip install beautifulsoup4
@@ -24,9 +24,4 @@ with open("data.txt", "w", encoding="utf-8") as file:
         a_tag = i.find('a')
         if a_tag:
             file.write(a_tag.string + "\n")
-
-
-    # if titles.a != None:
-    #     print(titles.a.string)
-
 
