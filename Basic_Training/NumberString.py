@@ -24,10 +24,19 @@
 # s = "hello"
 # print(s[0])
 
-# 包含開頭的編號，不包含結尾的編號
-# s = "hello"
-# print(s[1:4])
+#包含開頭的編號，不包含結尾的編號
+# 結尾編號可以超過不會有問題
+s = "hello"
+print(s[1:7])
 # ell
+
+# -1 表示取最後一碼
+s = "hello"
+print(s[-1])
+
+# s = "hello"
+# print(s[2:4])
+# ll
 
 # 可給開頭的編號，不給結尾的編號
 # s = "hello"
