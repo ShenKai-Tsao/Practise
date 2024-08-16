@@ -24,12 +24,14 @@ for x in {"a","c","s"}:
 print("字典")
 dic = {"a":3,"c":4}
 for x in dic:
-    print(x + ":" + str(dic[x]))
+    print(x,str(dic[x]))
 
 # 內建函式
+# 取最大值
 print("內建函式")
 result = max([10,20,30,40])
 print(result)
 
+# 排序
 result = sorted([10,20,30,40], reverse = True)
 print(result)
